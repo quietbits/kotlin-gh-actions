@@ -9,7 +9,7 @@ class MainKtTest {
 
     @Test
     fun `add two numbers test`() {
-        kotlin.test.assertEquals(10, addTwoNumbers(1, 2))
+        kotlin.test.assertEquals(10, addTwoNumbers(1, 9))
     }
 
     @Test
@@ -19,6 +19,6 @@ class MainKtTest {
 
     @Test
     fun `add two strings test`() {
-        kotlin.test.assertEquals("3", addTwoStrings("1", "2"))
+        kotlin.test.assertEquals("12", addTwoStrings("1", "2"))
     }
 }
